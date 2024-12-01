@@ -1,5 +1,5 @@
 <?php
-(array) $input = explode("\n", trim(file_get_contents(file_exists('input.txt') ? 'input.txt' : 'sample.txt')));
+(array) $input = explode("\n", trim(file_get_contents(file_exists('inputs/1.txt') ? 'inputs/1.txt' : 'samples/1.txt')));
 (array) $lists = array('left' => array(), 'right' => array());
 (int)   $total_distance = 0;
 (int)   $similarity_score = 0;
